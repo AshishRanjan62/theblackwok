@@ -1,0 +1,214 @@
+Photo file names (JPG, about 600x450 px, under 150 KB each). If a dish photo is missing, its category photo is shown automatically.
+
+# Indian Veg
+kadhai-paneer.jpg   <- Kadhai Paneer
+shahi-paneer.jpg   <- Shahi Paneer
+mutter-paneer.jpg   <- Mutter Paneer
+palak-paneer.jpg   <- Palak Paneer
+paneer-do-pyaza.jpg   <- Paneer Do Pyaza
+paneer-butter-masala.jpg   <- Paneer Butter Masala
+paneer-lababdar.jpg   <- Paneer Lababdar
+paneer-masala.jpg   <- Paneer Masala
+paneer-punjabi.jpg   <- Paneer Punjabi
+paneer-burji.jpg   <- Paneer Burji
+mushroom-masala.jpg   <- Mushroom Masala
+mushroom-kadhai.jpg   <- Mushroom Kadhai
+mutter-mushroom.jpg   <- Mutter Mushroom
+mushroom-lababdar.jpg   <- Mushroom Lababdar
+
+# Indian Non Veg
+egg-curry.jpg   <- Egg Curry
+chicken-kadhai.jpg   <- Chicken Kadhai
+chicken-do-pyaza.jpg   <- Chicken Do Pyaza
+chicken-butter-masala.jpg   <- Chicken Butter Masala
+chicken-curry.jpg   <- Chicken Curry
+chicken-dehati.jpg   <- Chicken Dehati
+chicken-lababdar.jpg   <- Chicken Lababdar
+chicken-rara.jpg   <- Chicken Rara
+chicken-masala.jpg   <- Chicken Masala
+malai-chaap.jpg   <- Malai Chaap
+achari-tikka.jpg   <- Achari Tikka
+hariyali-chaap.jpg   <- Hariyali Chaap
+afgani-chaap.jpg   <- Afgani Chaap
+
+# Noodles
+veg-noodles.jpg   <- Veg Noodles
+paneer-noodles.jpg   <- Paneer Noodles
+egg-noodles.jpg   <- Egg Noodles
+chicken-noodles.jpg   <- Chicken Noodles
+hakka-noodles.jpg   <- Hakka Noodles
+schezwan-noodles.jpg   <- Schezwan Noodles
+chicken-mixed-noodles.jpg   <- Chicken Mixed Noodles
+veg-mixed-noodles.jpg   <- Veg Mixed Noodles
+
+# Chinese
+baby-corn.jpg   <- Baby Corn
+mushroom-chilly.jpg   <- Mushroom Chilly
+manchurian-chilly.jpg   <- Manchurian Chilly
+paneer-chilly.jpg   <- Paneer Chilly
+chicken-chilly.jpg   <- Chicken Chilly
+chicken-manchurian.jpg   <- Chicken Manchurian
+chicken-lollypop.jpg   <- Chicken Lollypop
+
+# Starter
+crispy-corn.jpg   <- Crispy Corn
+crispy-babycorn-chilly.jpg   <- Crispy Babycorn Chilly
+mushroom-chilly-dry.jpg   <- Mushroom Chilly Dry
+veg-manchurian-dry.jpg   <- Veg Manchurian Dry
+paneer-chilly-dry.jpg   <- Paneer Chilly Dry
+chicken-chilly-dry.jpg   <- Chicken Chilly Dry
+chicken-65.jpg   <- Chicken 65
+chicken-lollypop-starter.jpg   <- Chicken Lollypop Starter
+
+# Kabab Veg
+paneer-kali-mirch-kabab.jpg   <- Paneer Kali Mirch Kabab
+paneer-tikka.jpg   <- Paneer Tikka
+paneer-malai-tikka.jpg   <- Paneer Malai Tikka
+paneer-haryali.jpg   <- Paneer Haryali
+paneer-seek-kabab.jpg   <- Paneer Seek Kabab
+paneer-achari-tikka.jpg   <- Paneer Achari Tikka
+soya-chaap.jpg   <- Soya Chaap
+
+# Kabab Non Veg
+chicken-tandoori.jpg   <- Chicken Tandoori
+afgani-tandoori.jpg   <- Afgani Tandoori
+tandoori-chicken.jpg   <- Tandoori Chicken
+kali-mirch-chicken-tikka.jpg   <- Kali Mirch Chicken Tikka
+chicken-malai-tikka.jpg   <- Chicken Malai Tikka
+chicken-haryali.jpg   <- Chicken Haryali
+chicken-seek-kabab.jpg   <- Chicken Seek Kabab
+malai-chicken-tikka.jpg   <- Malai Chicken Tikka
+
+# Roll
+veg-roll.jpg   <- Veg Roll
+veg-cheese-roll.jpg   <- Veg Cheese Roll
+veg-mayo-roll.jpg   <- Veg Mayo Roll
+veg-cheese-schezwan-roll.jpg   <- Veg Cheese Schezwan Roll
+egg-roll.jpg   <- Egg Roll
+double-egg-roll.jpg   <- Double Egg Roll
+paneer-roll.jpg   <- Paneer Roll
+paneer-mayo-roll.jpg   <- Paneer Mayo Roll
+paneer-kasha-roll.jpg   <- Paneer Kasha Roll
+paneer-cheese-schezwan-roll.jpg   <- Paneer Cheese Schezwan Roll
+chicken-roll.jpg   <- Chicken Roll
+chicken-egg-roll.jpg   <- Chicken Egg Roll
+single-egg-double-chicken-roll.jpg   <- Single Egg Double Chicken Roll
+double-egg-double-chicken-roll.jpg   <- Double Egg Double Chicken Roll
+chicken-cheese-roll.jpg   <- Chicken Cheese Roll
+chicken-egg-cheese-schezwan-roll.jpg   <- Chicken Egg Cheese Schezwan Roll
+
+# Biryani
+chicken-biryani.jpg   <- Chicken Biryani
+hyderbadi-biryani.jpg   <- Hyderbadi Biryani
+dum-biryani.jpg   <- Dum Biryani
+paneer-biryani.jpg   <- Paneer Biryani
+egg-biryani.jpg   <- Egg Biryani
+veg-biryani.jpg   <- Veg Biryani
+
+# Rice
+plain-basmati-rice.jpg   <- Plain Basmati Rice
+jeera-rice.jpg   <- Jeera Rice
+veg-fried-rice.jpg   <- Veg Fried Rice
+paneer-fried-rice.jpg   <- Paneer Fried Rice
+egg-fried-rice.jpg   <- Egg Fried Rice
+chicken-fried-rice.jpg   <- Chicken Fried Rice
+veg-mixed-fried-rice.jpg   <- Veg Mixed Fried Rice
+non-veg-mixed-fried-rice.jpg   <- Non Veg Mixed Fried Rice
+
+# Naan
+plain-naan.jpg   <- Plain Naan
+butter-naan.jpg   <- Butter Naan
+egg-paratha.jpg   <- Egg Paratha
+stuff-naan-with-gravy.jpg   <- Stuff Naan with Gravy
+tawa-roti.jpg   <- Tawa Roti
+butter-roti.jpg   <- Butter Roti
+aloo-paratha-2pc.jpg   <- Aloo Paratha (2pc)
+paneer-paratha-2pc.jpg   <- Paneer Paratha (2pc)
+lachha-paratha.jpg   <- Lachha Paratha
+egg-lachha-paratha.jpg   <- Egg Lachha Paratha
+
+# Combo
+chicken-chilly-lachha-paratha-2pc.jpg   <- Chicken Chilly + Lachha Paratha (2pc)
+chicken-lollypop-lachha-paratha-2pc.jpg   <- Chicken Lollypop + Lachha Paratha (2pc)
+paneer-chilly-lachha-paratha-2pc.jpg   <- Paneer Chilly + Lachha Paratha (2pc)
+manchurian-lachha-paratha-2pc.jpg   <- Manchurian + Lachha Paratha (2pc)
+noodles-chicken-chilly.jpg   <- Noodles + Chicken Chilly
+noodles-manchurian.jpg   <- Noodles + Manchurian
+noodles-paneer-chilly.jpg   <- Noodles + Paneer Chilly
+fried-rice-chicken-chilly.jpg   <- Fried Rice + Chicken Chilly
+fried-rice-manchurian.jpg   <- Fried Rice + Manchurian
+fried-rice-paneer-chilly.jpg   <- Fried Rice + Paneer Chilly
+chicken-chawal-salad-papad.jpg   <- Chicken + Chawal + Salad + Papad
+chicken-lachha-paratha-salad.jpg   <- Chicken + Lachha Paratha + Salad
+extra-chicken.jpg   <- Extra Chicken
+extra-lachha-paratha.jpg   <- Extra Lachha Paratha
+
+# Thali
+simple-veg-thali.jpg   <- Simple Veg Thali
+special-veg-thali.jpg   <- Special Veg Thali
+roti-thali.jpg   <- Roti Thali
+egg-thali.jpg   <- Egg Thali
+chicken-thali.jpg   <- Chicken Thali
+fish-thali.jpg   <- Fish Thali
+mutton-thali.jpg   <- Mutton Thali
+
+# Snacks
+maggi-plain.jpg   <- Maggi (Plain)
+veg-maggi.jpg   <- Veg Maggi
+egg-maggi.jpg   <- Egg Maggi
+paneer-pakoda-8pc.jpg   <- Paneer Pakoda (8pc)
+chicken-pakoda-8pc.jpg   <- Chicken Pakoda (8pc)
+egg-pakoda-4pc.jpg   <- Egg Pakoda (4pc)
+veg-mixed-pakoda-8pc.jpg   <- Veg Mixed Pakoda (8pc)
+egg-burji.jpg   <- Egg Burji
+
+# Soup
+veg-manchow-soup.jpg   <- Veg Manchow Soup
+hot-sour-soup.jpg   <- Hot & Sour Soup
+sweet-corn-soup.jpg   <- Sweet Corn Soup
+chicken-manchow-soup.jpg   <- Chicken Manchow Soup
+
+# Dal
+dal-fry.jpg   <- Dal Fry
+dal-tadka.jpg   <- Dal Tadka
+
+# Raita
+boondi-raita.jpg   <- Boondi Raita
+mix-raita.jpg   <- Mix Raita
+
+# Sweet
+gulab-jamun.jpg   <- Gulab Jamun
+rasgulla.jpg   <- Rasgulla
+rasmalai.jpg   <- Rasmalai
+dahi.jpg   <- Dahi
+
+# Continental
+green-salad.jpg   <- Green Salad
+papad-2pc.jpg   <- Papad (2pc)
+
+# Category photos (400x500 px)
+cat-indian-veg.jpg   <- Indian Veg
+cat-indian-non-veg.jpg   <- Indian Non Veg
+cat-noodles.jpg   <- Noodles
+cat-chinese.jpg   <- Chinese
+cat-starter.jpg   <- Starter
+cat-kabab-veg.jpg   <- Kabab Veg
+cat-kabab-non-veg.jpg   <- Kabab Non Veg
+cat-roll.jpg   <- Roll
+cat-biryani.jpg   <- Biryani
+cat-rice.jpg   <- Rice
+cat-naan.jpg   <- Naan
+cat-combo.jpg   <- Combo
+cat-thali.jpg   <- Thali
+cat-snacks.jpg   <- Snacks
+cat-soup.jpg   <- Soup
+cat-dal.jpg   <- Dal
+cat-raita.jpg   <- Raita
+cat-sweet.jpg   <- Sweet
+cat-continental.jpg   <- Continental
+
+# Other images
+logo.png   <- your logo for dark backgrounds (transparent PNG, e.g. 800x340)
+logo-dark.png   <- logo for white backgrounds (used on the bill; optional, falls back to logo.png)
+welcome-bg.jpg, banner.jpg, review-bg.jpg, thanks-bg.jpg   <- background photos
+upi-gpay.jpg, upi-phonepe.jpg, upi-paytm.jpg, upi-amazonpay.jpg   <- small payment app icons
