@@ -1,12 +1,14 @@
 // Netlify Function: naya order / staff call aane par staff phones ko push notification bhejta hai
 const admin = require("firebase-admin");
 
-if (!admin.apps.length) {
+function init() {
+  if (admin.apps.length) return;
   const raw = (process.env.FIREBASE_SERVICE_ACCOUNT || "").trim();
+  if (!raw) throw new Error("FIREBASE_SERVICE_ACCOUNT khali hai (is deploy me nahi mili)");
   const json = raw.startsWith("{") ? raw : Buffer.from(raw, "base64").toString("utf8");
   admin.initializeApp({ credential: admin.credential.cert(JSON.parse(json)) });
 }
-const db = admin.firestore();
+const db = () => admin.firestore();
 
 const reply = (code, obj) => ({
   statusCode: code,
@@ -15,7 +17,16 @@ const reply = (code, obj) => ({
 });
 
 exports.handler = async (event) => {
-  if (event.httpMethod !== "POST") return reply(405, { error: "POST only" });
+  if (event.httpMethod !== "POST") {
+    // Browser se kholne par env ka status dikhta hai (key ka text nahi, sirf length)
+    const raw = (process.env.FIREBASE_SERVICE_ACCOUNT || "").trim();
+    return reply(405, { error: "POST only", env: { set: !!raw, length: raw.length, startsWithBrace: raw.startsWith("{") } });
+  }
+  try {
+    init();
+  } catch (e) {
+    return reply(500, { error: "init failed", reason: e.message });
+  }
 
   let type, id;
   try {
@@ -28,12 +39,12 @@ exports.handler = async (event) => {
     return reply(400, { error: "bad request" });
   }
 
-  const ref = db.collection(col).doc(id);
+  const ref = db().collection(col).doc(id);
 
   // Verify: document sach me exist kare, abhi (10 min ke andar) bana ho, aur pehle notify na hua ho
   let d = null;
   try {
-    d = await db.runTransaction(async (t) => {
+    d = await db().runTransaction(async (t) => {
       const s = await t.get(ref);
       if (!s.exists) return null;
       const x = s.data();
@@ -60,10 +71,8 @@ exports.handler = async (event) => {
     body = where + (reason ? ": " + reason : "");
   }
 
-  // Order screen khulne ka path: order -> orders/<id>, call -> us order ka path (agar orderNo ho)
-  let path = "";
-  if (type === "order") path = "orders/" + id;
-  else if (d.orderNo) path = "orders/" + String(d.orderNo).replace("#", "");
+  // Tap par: order -> seedha wo order, staff call -> app ka Staff tab (path khali)
+  const path = type === "order" ? "orders/" + id : "";
 
   try {
     // Data-only message: app ka PushService full-volume alarm bajata hai
